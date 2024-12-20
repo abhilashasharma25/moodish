@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI-Powered Journal with Mood Analysis</h1>
+        
+        <!-- Add new entry section -->
+        <div class="entry-section">
+            <textarea id="journal-entry" placeholder="Write about your day..."></textarea>
+            <button onclick="addEntry()">Add Entry</button>
+        </div>
+
+        <!-- Journal Entries List -->
+        <div id="entries-container">
+            <h2>Your Journal Entries</h2>
+            <ul id="entries-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
